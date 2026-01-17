@@ -4,33 +4,51 @@
     box-sizing: border-box;
  }
 
+ 
+.font-inter{
+  font-family: "Inter", sans-serif;
+}
 header{
     background-color: #ffffff;
-
 }
+
+/* navbar starts here */
 nav {
-    margin: 0 auto;
+    padding: 16px 120px;
+    border-bottom: 1px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-   
-    
-}    
-
+    justify-content: space-between; 
+}
 .link-parent{
     display: flex;
-    gap: 22px;
+    gap: 32px;
     list-style: none;
 }
-.link-parent a{
-    display: flex;
+.link-parent li a{
+    
     text-decoration: none;
+    list-style: none;
     color:#000000;
 }
 .btn{
+    align-items: center;
     background-color: #3f8e60;
+    color:white;
+    border: none;
     border-radius: 4px;
     padding: 12px 16px;
-    margin: 24px 120px;
+    text-emphasis-color: #ffffff;
+    
 }
+.btn:hover{
+    background-color: rgb(43, 43, 46);
+}
+/* navbar ends here */
+
+/* hero section here */
+
+
+
+/* hero section ends here */
 
