@@ -160,12 +160,14 @@ nav {
     align-items: center;
     justify-content: center;
     gap: 16px;
+    
      
 }
 .knowledge-vault-content h1{
     margin-top: 97px;
     font-weight: 700;
     font-size: 48px;
+    
 }
 .knowledge-vault-content p{
     font-weight: 400;
@@ -221,6 +223,7 @@ nav {
     margin-top: 120px; 
     padding: 0 120px;
     margin-bottom: 120px;
+    /* height: 840px; */
 }
 .knowledge-left{
     align-items: center;
@@ -275,7 +278,53 @@ nav {
     line-height: 20px;
     max-width:700px;
 }
-
-
-
 /* solution section end here */
+/* knowledge section start here*/
+.knowledge-section{
+    background-color: #F7F6F2;
+    margin: 2px 120px 120px;
+    padding: 80px 40px;
+    gap: 40px;
+    border-radius: 12px;
+    height: 384px;
+    text-align: center;
+}
+.think-clearly h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    margin-bottom: 16px;
+}
+.think-clearly p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    
+}
+.access-btn{
+    align-items: center;
+    background-color: #3f8e60;
+    color:white;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 16px;
+    text-emphasis-color: #ffffff;
+    height: 52px;
+    display: inline-flex;
+    gap: 12px;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.access-btn:hover{
+    background-color: #063e16;
+}
+.early-access-btn p{
+    color: #627382;
+}
+/*  knowledge section end here */
