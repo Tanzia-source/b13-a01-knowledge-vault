@@ -59,8 +59,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center; 
 } 
 .early-access{
     background-color:rgba(255, 255, 255, 1);
@@ -129,8 +128,8 @@ nav {
     border: none;
     display:inline-flex;
     padding: 12px 16px;
-    background-color:#3f8e60;
-    color:rgba(255, 255, 255, 1);
+    background-color:#469165;
+    color:#FFFFFF;
 }
 .my-btn1:hover{
     background-color: black;
@@ -181,15 +180,15 @@ nav {
     border-radius: 100%;
 }
  .knowledge-card{
-    padding: 24px;
     border-radius: 8px;
+    text-align: center;
     margin-bottom: 48px;
     display: flex;
     flex-direction: column;
     gap: 16px;
     margin-top: 44px;
     align-items: center;
-    height: 300px;
+    padding-bottom: 71px;
     box-shadow: 0 0 8px 0 #0000000F;
 }
 .knowledge-card h5{
@@ -209,12 +208,73 @@ nav {
     display: flex;
     gap: 24px;
     margin: 44px 120px 72px;
+    margin-bottom: 120px;
 }
 /* about knowledge section ends here */
 /* solution section starts here*/
 
+.solution-section{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: space-between; 
+    margin-top: 120px; 
+    padding: 0 120px;
+    margin-bottom: 120px;
+}
+.knowledge-left{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    flex: 1;
+}
+.knowledge-left img{
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+}
+.knowledge-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    flex: 1;
+}
+.knowledge-right ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+ }
 
-
+ .knowledge-right li{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+ }
+.knowledge-right h6{
+    font-weight: 500;
+    font-size: 16px;
+    color: #20864b;
+    margin-bottom: 16px;
+    line-height: 20px;
+}
+.knowledge-right h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    max-width:700px;
+    line-height: 100%;
+}
+.knowledge-right p{
+    color: #627382;
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    max-width:700px;
+}
 
 
 
